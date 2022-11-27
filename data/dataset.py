@@ -21,7 +21,7 @@ for i, row in raw_data.iterrows():
 data = raw_data[raw_data['Year'].notnull()].copy()
 
 # apply normalization
-data['Year'] = data['Year'] - 2000
+data['Year'] = data['Year'] - data['Year'].min() + 1
 
 # export:
 # calculate number of data samples (observations)
@@ -30,8 +30,6 @@ N = data.shape[0]
 # construct design matrix (F) and observations (y) arrays
 numerical_data = data.loc[:, 'Year':'Duration'].to_numpy()
 y = data.loc[:, 'Rating'].to_numpy()
-
-F = np.concatenate([np.ones((N, 1)), numerical_data], axis=1)
 
 if __name__ == '__main__':
     pd.set_option('display.max_rows', None)

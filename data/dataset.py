@@ -27,8 +27,10 @@ data['Year'] = data['Year'] - data['Year'].min() + 1
 # calculate number of data samples (observations)
 N = data.shape[0]
 
-# construct design matrix (F) and observations (y) arrays
+# extract factors (x1, x2, x3) and observations (y) values
 numerical_data = data.loc[:, 'Year':'Duration'].to_numpy()
+M = numerical_data.shape[1] # factors count
+
 y = data.loc[:, 'Rating'].to_numpy()
 
 if __name__ == '__main__':
@@ -36,5 +38,4 @@ if __name__ == '__main__':
     np.set_printoptions(suppress=True)
 
     print('Dataset: ', data, sep='\n')
-    print('Design matrix: ', F, sep='\n')
     print('Y (observations) values: ', y, sep='\n')

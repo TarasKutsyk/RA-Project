@@ -1,5 +1,7 @@
 import numpy as np
 from numpy.linalg import inv
+from sklearn.metrics import r2_score
+
 import matplotlib.pyplot as plt
 
 import os
@@ -42,6 +44,7 @@ if __name__ == '__main__':
         print('Least squares estimates:', B[i], sep='\n')
         print('Predicted y values:', Y_pred[i], sep='\n')
         print('Prediction Mean Squared Error: ', np.mean((y - Y_pred[i])**2), sep='\n')
+        print('R_2 = ', r2_score(y, Y_pred[i]))
 
         # Plot LS prediction values vs real ones
         x = np.arange(0, N)

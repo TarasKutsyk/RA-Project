@@ -21,7 +21,8 @@ for i, row in raw_data.iterrows():
 data = raw_data[raw_data['Year'].notnull()].copy()
 
 # apply normalization
-data['Year'] = data['Year'] - data['Year'].min() + 1
+MIN_YEAR = data['Year'].min()
+data['Year'] = data['Year'] - MIN_YEAR + 1
 
 # export:
 # calculate number of data samples (observations)

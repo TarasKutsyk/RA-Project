@@ -1,0 +1,15 @@
+E:\VII семестр\Методи регресійного аналізу та їх застосування\проєкт\project_RA\project_RA\bin\Debug\net6.0\project_RA.exe
+E:\VII семестр\Методи регресійного аналізу та їх застосування\проєкт\project_RA\project_RA\bin\Debug\net6.0\project_RA.deps.json
+E:\VII семестр\Методи регресійного аналізу та їх застосування\проєкт\project_RA\project_RA\bin\Debug\net6.0\project_RA.runtimeconfig.json
+E:\VII семестр\Методи регресійного аналізу та їх застосування\проєкт\project_RA\project_RA\bin\Debug\net6.0\project_RA.dll
+E:\VII семестр\Методи регресійного аналізу та їх застосування\проєкт\project_RA\project_RA\bin\Debug\net6.0\project_RA.pdb
+E:\VII семестр\Методи регресійного аналізу та їх застосування\проєкт\project_RA\project_RA\obj\Debug\net6.0\project_RA.csproj.AssemblyReference.cache
+E:\VII семестр\Методи регресійного аналізу та їх застосування\проєкт\project_RA\project_RA\obj\Debug\net6.0\project_RA.GeneratedMSBuildEditorConfig.editorconfig
+E:\VII семестр\Методи регресійного аналізу та їх застосування\проєкт\project_RA\project_RA\obj\Debug\net6.0\project_RA.AssemblyInfoInputs.cache
+E:\VII семестр\Методи регресійного аналізу та їх застосування\проєкт\project_RA\project_RA\obj\Debug\net6.0\project_RA.AssemblyInfo.cs
+E:\VII семестр\Методи регресійного аналізу та їх застосування\проєкт\project_RA\project_RA\obj\Debug\net6.0\project_RA.csproj.CoreCompileInputs.cache
+E:\VII семестр\Методи регресійного аналізу та їх застосування\проєкт\project_RA\project_RA\obj\Debug\net6.0\project_RA.dll
+E:\VII семестр\Методи регресійного аналізу та їх застосування\проєкт\project_RA\project_RA\obj\Debug\net6.0\refint\project_RA.dll
+E:\VII семестр\Методи регресійного аналізу та їх застосування\проєкт\project_RA\project_RA\obj\Debug\net6.0\project_RA.pdb
+E:\VII семестр\Методи регресійного аналізу та їх застосування\проєкт\project_RA\project_RA\obj\Debug\net6.0\project_RA.genruntimeconfig.cache
+E:\VII семестр\Методи регресійного аналізу та їх застосування\проєкт\project_RA\project_RA\obj\Debug\net6.0\ref\project_RA.dll

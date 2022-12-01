@@ -1,7 +1,11 @@
 import pandas as pd
 import numpy as np
+import os
 
-raw_data = pd.read_excel('data/data.xlsx', names=['Title', 'Year', 'Deaths', 'Duration', 'Rating'])
+abs_path = os.path.abspath(os.path.join(
+                  os.path.dirname(__file__), 
+                  os.pardir))
+raw_data = pd.read_excel(abs_path + '\\data\\data.xlsx', names=['Title', 'Year', 'Deaths', 'Duration', 'Rating'])
 
 # filter out all the NaN values, caused by bad input file formatting
 currentMovieTitle = ''
